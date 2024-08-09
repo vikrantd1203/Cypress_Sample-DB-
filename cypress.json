@@ -1,0 +1,11 @@
+{   
+    "nodeVersion": "system",
+    "env": {
+      "db": {
+          "user": "<system>",
+          "password": "<password>",
+          "connectString" : "<connectString>"
+      }
+    }
+  }
+

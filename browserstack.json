@@ -1,0 +1,35 @@
+{
+    "auth": {
+        "username": "<YOUR_BROWSERSTACK_USERNAME>",
+        "access_key": "<YOUR_BROWSERSTACK_ACCESS_KEY>"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.json",
+        "project_name": "Project_Name",
+        "build_name": "BuildName",
+        "exclude": [],
+        "parallels": "1",               
+        "npm_dependencies": {
+            "oracledb": "^5.1.0",
+            "typescript": "^4.2.3"
+        },
+        "package_config_options": {},
+        "headless": true
+    },
+    "connection_settings": {
+        "local": true,
+        "local_identifier": "local_identifier",
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}
